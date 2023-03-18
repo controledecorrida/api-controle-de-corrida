@@ -6,7 +6,7 @@ exports.signUp = async (req, res, next) => {
     const response = await User.create({
       name: req.body.name,
       birthday: req.body.birthday,
-      email: req.body.birthday,
+      email: req.body.email,
       password: req.body.password
     })
 
