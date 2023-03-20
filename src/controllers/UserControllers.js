@@ -14,6 +14,6 @@ exports.signUp = async (req, res, next) => {
 
     res.json({ id: response.id })
   } catch (err) {
-    res.json({ error: err.message });
+    res.json({ error: err });
   }
 }
