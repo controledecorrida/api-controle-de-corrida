@@ -1,0 +1,24 @@
+{
+  "development": {
+    "username": "root",
+    "password": "123456",
+    "database": "controledecorrida",
+    "host": "localhost",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "root",
+    "name": "root",
+    "password": "123456",
+    "database": "controledecorrida_test",
+    "host": "localhost",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": "123456",
+    "database": "controledecorrida",
+    "host": "localhost",
+    "dialect": "mysql"
+  }
+}
